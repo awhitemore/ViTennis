@@ -12,7 +12,24 @@ A computer vision application that uses Vision Transformer (ViT) to classify ten
 
 ## Quick Start
 
-### Prerequisites
+### Option 1: Use Pre-trained Model (Recommended)
+
+1. **Install Python dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Download the pre-trained model**
+   - Go to [Releases](https://github.com/awhitemore/ViTennis/releases)
+   - Download `tennis-model-v1.0.0.zip`
+   - Extract to your project root (creates `temp/` folder)
+
+3. **Run the application**
+   ```bash
+   python app_gui.py
+   ```
+
+### Option 2: Train Your Own Model
 
 1. **Install Python dependencies**
    ```bash
@@ -34,7 +51,6 @@ A computer vision application that uses Vision Transformer (ViT) to classify ten
    ```bash
    python vit.py
    ```
-   This will create the trained model in `temp/4-tennis/` and generate embeddings.
 
 4. **Run the application**
    ```bash
@@ -74,3 +90,4 @@ A computer vision application that uses Vision Transformer (ViT) to classify ten
 ## License
 
 MIT License
+
